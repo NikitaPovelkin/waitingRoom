@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.5"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/doctor_name_lw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="12dp"
+            android:textColor="@color/textColorPrimary"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/doctor_type_lw"
+            android:layout_below="@id/doctor_name_lw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorSecondary"
+            android:text="@string/name"
+            android:textSize="9sp"
+            android:textAlignment="viewStart" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="@string/appointment_date"
+        android:id="@+id/appointment_date"
+        android:textColor="@color/textColorSecondary"
+        android:textAlignment="viewEnd"
+        android:textSize="12sp"
+        android:layout_weight="0.5"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
+

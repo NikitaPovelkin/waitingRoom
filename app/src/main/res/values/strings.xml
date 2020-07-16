@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Wartezimmer</string>
+    <!--Login And Register -->
+    <string name="login">Anmelden</string>
+    <string name="register">Registrieren</string>
+
+    <string name="subtitle_personal_info">Persönliche Angaben</string>
+    <string name="subtitle_account_info">Kontodaten</string>
+
+    <string name="last_name">Nachname</string>
+    <string name="surname">Vorname</string>
+    <string name="birthday">Geburtstag</string>
+
+    <string name="hint_email">E-Mail</string>
+    <string name="hint_password">Passwort</string>
+    <string name="hint_password_repeat">Passwort wiederholen</string>
+    <string name="street">Straße</string>
+    <string name="zip_code">PLZ</string>
+    <string name="city">Ort</string>
+
+    <string name="save_info">Speichern</string>
+
+
+    <string name="logo">Wartezimmer App Logo</string>
+    <string name="error_password">Falsche Anmeldedaten, versuchen sie es nochmal.</string>
+
+    <!--Overview -->
+    <string name="overview">Überblick</string>
+    <string name="your_appointments">Ihre Termine</string>
+    <string name="tipps">Tipps</string>
+    <string name="appointment_date">Termin Datum</string>
+    <string name="name">Name</string>
+
+    <string name="card_title1">Blaues Licht: Umstrittenes Leuchten</string>
+    <string name="card_text1">Blaues Licht spielt in unserem Alltag eine immer wichtigere Rolle. Studien zeigen: Es beeinflusst auch unsere Gesundheit</string>
+
+    <string name="card_title2">Der zirkadiane Rhythmus bestimmt die Gesundheit</string>
+    <string name="card_text2">Alles Leben in der Natur richtet sich nach dem zirkadianen Rhythmus, dem Tag-Nacht-Rhythmus. </string>
+
+    <string name="card_title3">Corona-Blues - Mit Achtsamkeit der Krise trotzen</string>
+    <string name="card_text3">Abstand halten, einkaufen mit Mundschutz und arbeiten von zuhause – die weltweite Corona-Pandemie hat unseren gewohnten Alltag von einem Tag auf den anderen ziemlich auf den Kopf gestellt</string>
+
+    <!-- Doctor -->
+    <string name="set_type">Arzttyp</string>
+    <string name="appointment">Termin</string>
+    <string name="appointment_text">Sie haben um 14:15 beim Orthopäden, Herrn Ostendorf, ein Termin
+                                    in der Georgstraße 32B</string>
+    <string name="map">Karte</string>
+    <string name="check_in">Im Wartezimmer einchecken</string>
+    <string name="cancel_appointment">Termin absagen</string>
+    <string name="check_out">Aus dem Wartezimmer auschecken</string>
+
+    <string name="check_in_text">Vor ihnen sind 3 Menschen in der Warteschlange. Es verbleiben 15
+        Minuten bis zu Ihrem Termin. (Mögliche verspätung: 5 Minuten)</string>
+
+    <!--Menu -->
+    <string name="menu">Menü</string>
+
+    <string name="doctors">Meine Ärzte</string>
+    <string name="account_info">Meine Kontodaten</string>
+    <string name="faq">FAQ</string>
+
+</resources>

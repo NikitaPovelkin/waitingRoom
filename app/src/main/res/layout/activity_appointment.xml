@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryLight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24sp"
+        android:layout_marginRight="24sp">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-20dp"
+            style="@style/Widget.WaitingRoom.AppBar"
+            android:layout_marginBottom="0sp" >
+
+            <androidx.appcompat.widget.Toolbar
+                style="@style/Widget.WaitingRoom.Toolbar"
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:title="Orthopäde"
+                app:subtitle="Herr Ostendorf"/>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <TextView
+            android:id="@+id/your_appointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/appointment"
+            android:layout_below="@id/app_bar"
+            style="@style/TextAppearance.WaitingRoom.Subtitle1"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/appointment_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/your_appointments"
+            android:background="@drawable/round_bg"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:text="@string/appointment_text"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@id/appointment_text"
+            android:id="@+id/check_in_container">
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/check_in_container"
+            android:text="@string/map"
+            style="@style/TextAppearance.WaitingRoom.Subtitle1"
+            android:layout_marginBottom="8dp"/>
+
+        <RelativeLayout
+            android:id="@+id/map_container"
+            android:layout_width="match_parent"
+            android:layout_below="@id/map"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:background="@drawable/map_bg"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

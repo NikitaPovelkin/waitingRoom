@@ -1,0 +1,71 @@
+<resources>
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+    </style>
+
+    <!--Login TextView-->
+    <style name="Widget.WaitingRoom.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/TextAppearance.WaitingRoom.TextInputLayout.HintText</item>
+        <item name="backgroundColor">@color/icons</item>
+        <item name="hintTextColor">@color/colorPrimary</item>
+        <item name="boxStrokeColor">@color/login_box</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextAppearance.WaitingRoom.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">12sp</item>
+    </style>
+
+    <style name="Widget.WaitingRoom.AppBar" parent="Widget.Design.AppBarLayout">
+        <item name="elevation">0dp</item>
+        <item name="android:paddingStart">-12dp</item>
+        <item name="android:paddingBottom">-12dp</item>
+    </style>
+
+    <style name="Widget.WaitingRoom.CancelButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/red</item>
+    </style>
+
+    <!--Login Text -->
+    <style name="TextAppearance.WaitingRoom.TextInputLayout.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/colorPrimary</item>
+    </style>
+
+    <!--Login Button -->
+    <style name="Widget.WaitingRoom.AccentButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/icons</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+    </style>
+
+    <!--Register Button -->
+    <style name="Widget.WaitingRoom.RegisterButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <!--Overview Section-->
+    <style name="Widget.WaitingRoom.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:padding">30dp</item>
+        <item name="elevation">0dp</item>
+        <item name="titleTextAppearance">@style/TextAppearance.WaitingRoom.Toolbar.Title</item>
+    </style>
+
+    <style name="TextAppearance.WaitingRoom.Toolbar.Title" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="TextAppearance.WaitingRoom.Title" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.WaitingRoom.CardView.Text" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+</resources>
