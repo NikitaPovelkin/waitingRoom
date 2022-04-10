@@ -27,7 +27,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDzcSSWyJ7c5aBX0F7bhCMWhsBkYuUPr3c" />
+            android:value="" />
 
         <activity android:name=".AppointmentActivity" />
         <activity android:name=".RegisterActivity" />
